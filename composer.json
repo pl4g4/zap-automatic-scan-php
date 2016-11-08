@@ -1,0 +1,14 @@
+{
+    "name": "pl4g4/automatic_scan_zap_project",
+    "description": "Automatic scan using zap php api",
+    "authors": [
+        {
+            "name": "pl4g4",
+            "email": "my@email.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "zaproxy/php-owasp-zap-v2": "2.4.*@beta"
+    }
+}
