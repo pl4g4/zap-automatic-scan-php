@@ -50,7 +50,7 @@ echo "Scan completed\n";
 
 // Report the results
 echo "Hosts: " . implode(",", $zap->core->hosts()) . "\n";
-$alerts = $zap->core->alerts($target, "", "");
-echo "Alerts (" . count($alerts) . "):\n";
-print_r($alerts);
+$scanResponse = $zap->core->htmlreport($api_key);
+echo $scanResponse;
+exit;
 
